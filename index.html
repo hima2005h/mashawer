@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Cairo Font -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<title>خدمة مشاوير</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    background: #f4f6f9;
+}
+
+/* HEADER */
+.header {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('images/car.jpg') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 42px;
+}
+
+/* INFO BAR */
+.info-bar {
+    background: #fff;
+    margin: -40px auto 30px;
+    width: 85%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* SERVICES */
+.services {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #fff;
+    width: 260px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.icon {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #25D366;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* FORM */
+.form {
+    background: #fff;
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form input, .form select {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-family: 'Cairo';
+}
+
+.form button {
+    width: 100%;
+    padding: 15px;
+    background: #25D366;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.whatsapp img {
+    width: 60px;
+}
+
+/* FOOTER */
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>خدمة مشاوير كفر الشيخ 🚗</h1>
+</div>
+
+<!-- INFO BAR -->
+<div class="info-bar">
+    موقع العربية بكفرالشيخ والتوصيل داخل المحافظة وخارجها
+</div>
+
+<div style="
+    max-width:500px;
+    margin:30px auto;
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    font-family:'Cairo',sans-serif;
+    direction:rtl;
+">
+
+<!-- صورة العربية -->
+<img src="images/car.jpg" alt="السيارة"
+style="width:100%;height:220px;object-fit:cover">
+
+<!-- المحتوى -->
+<div style="padding:20px;text-align:center">
+
+<h2 style="margin:0 0 10px 0;color:#111">🚗 عربيتك المريحة</h2>
+
+<p style="color:#555;line-height:1.7;margin:0">
+نقدّم لك تجربة مشاوير مريحة وآمنة داخل وخارج كفر الشيخ.<br>
+السيارة مجهزة لراحتك الكاملة طوال الرحلة.
+</p>
+
+<!-- مميزات -->
+<div style="margin-top:15px;text-align:right">
+
+<p>✔️ راحة كاملة أثناء الرحلة</p>
+<p>✔️ سائق محترم وملتزم بالمواعيد</p>
+<p>✔️ تكييف ومقاعد مريحة</p>
+<p>✔️ أمان طوال الطريق</p>
+
+</div>
+
+<!-- شكر -->
+<p style="margin-top:15px;color:#25d366;font-weight:bold">
+شكراً لاختيارك خدمتنا ❤️
+</p>
+
+</div>
+</div>
+
+<!-- SERVICES -->
+<div class="services">
+    <h2>خدماتنا</h2>
+
+    <div class="services-container">
+
+        <div class="card">
+            <div class="icon">🚗</div>
+            <h3>مشاوير خاصة</h3>
+            <p>تنقل بسهولة داخل وخارج كفر الشيخ بأفضل خدمة</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💍</div>
+            <h3>حفلات الزفاف</h3>
+            <p>عربية مميزة لليلة العمر بأفضل شكل</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">✈️</div>
+            <h3>سفر للمطار</h3>
+            <p>توصيل آمن وسريع لجميع المطارات</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- FORM -->
+<div style="max-width:420px;margin:30px auto;padding:22px;background:#fff;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.1);font-family:Arial;direction:rtl;text-align:center">
+
+<h2 style="margin-bottom:15px">🚗 اطلب رحلتك</h2>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:10px">
+
+<input id="name" placeholder="الاسم"
+style="width:85%;padding:12px;border:1px solid #ddd;border-radius:10px;text-align:center">
+
+<input id="phone" placeholder="رقم الموبايل"
+style="width:85%;padding:12px;border:1px solid #ddd;border-radius:10px;text-align:center">
+
+<select id="service"
+style="width:85%;padding:12px;border:1px solid #ddd;border-radius:10px;text-align:center">
+
+<option value="">اختار الخدمة</option>
+<option>مشاوير خاصة</option>
+<option>حفلات زفاف</option>
+<option>سفر للمطار</option>
+
+</select>
+
+<input id="details" placeholder="تفاصيل الرحلة"
+style="width:85%;padding:12px;border:1px solid #ddd;border-radius:10px;text-align:center">
+
+</div>
+
+<button onclick="sendWA()"
+style="width:85%;margin-top:12px;padding:14px;background:#25D366;color:#fff;border:none;border-radius:12px;font-size:16px;cursor:pointer">
+
+إرسال واتساب
+
+</button>
+
+</div>
+
+<script>
+function sendWA(){
+
+let name=document.getElementById("name").value.trim();
+let phone=document.getElementById("phone").value.trim();
+let service=document.getElementById("service").value;
+let details=document.getElementById("details").value.trim();
+
+if(!name||!phone||!service||!details){
+alert("من فضلك املأ كل البيانات");
+return;
+}
+
+let msg =
+"🚗 طلب جديد%0A"+
+"الاسم: "+name+"%0A"+
+"الموبايل: "+phone+"%0A"+
+"الخدمة: "+service+"%0A"+
+"التفاصيل: "+details;
+
+let url="https://wa.me/201016120186?text="+encodeURIComponent(msg);
+
+window.location.href=url;
+
+}
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=201009248856" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+<style>
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+</style>
+
+
+<!-- Footer -->
+<footer style="text-align:center;padding:20px;background:#111;color:#fff;font-family:Arial">
+
+  <div class="container">
+
+    <p style="margin:0">
+      Ibrahim Mohsen © 2026 | All Rights Reserved.
+      <a href="https://wa.me/201009248856"
+         style="color:#25d366;text-decoration:none;font-weight:600;margin-right:6px">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </p>
+
+  </div>
+
+</footer>
